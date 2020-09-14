@@ -13,7 +13,14 @@
 
 #aboutmepic {
   width: 210px;
-  height: 260px;
+}
+
+#portfoliopic1,
+#portfoliopic2,
+#portfoliopic3,
+#portfoliopic4,
+#portfoliopic5 {
+  width: 350px;
 }
 
 .footer {

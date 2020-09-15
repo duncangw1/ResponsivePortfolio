@@ -1,3 +1,9 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
 .navbar {
   border-bottom: 5px solid #17a2b8;
 }
@@ -6,9 +12,16 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#pagecontent {
+.mainpagecontent {
   background-image: url("images/background.jpg");
   background-color: #cccccc;
+  min-height: 100%;
+  margin-bottom: -90px;
+}
+
+.mainpagecontent::after {
+  content: "";
+  display: block;
 }
 
 #aboutmepic {
@@ -23,11 +36,15 @@
   width: 100%;
 }
 
+footer,
+.mainpagecontent::after {
+  height: 90px;
+}
+
 .footer {
   position: sticky;
   bottom: 0;
   width: 100%;
-  height: 90px;
   line-height: 70px;
   background-color: #343a40;
   border-top: 5px solid #17a2b8;

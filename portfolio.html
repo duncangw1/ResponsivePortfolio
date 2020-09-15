@@ -2,29 +2,32 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <!-- Setting responsive viewport-->
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-
+    <!-- Link to Bootstrap stylesheet  -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-
+    <!-- Link to Font Awesome stylesheet for social media icons used in the footer  -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-
+    <!-- Link to external CSS stylesheet with custom CSS  -->
     <link rel="stylesheet" href="style.css" />
-
+    <!-- Webpage title  -->
     <title>Portfolio</title>
   </head>
   <body>
+    <!-- Navbar at the top of the page  -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <!-- Name with homepage link on the left side of the navbar  -->
       <a
         class="navbar-brand p-2 mb-1 bg-info text-light rounded-pill font-weight-bold"
         id="nametop"
@@ -42,34 +45,41 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-
+      <!-- Links to all three pages on the right side of the navbar, including an active highlight on the active page  -->
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <!-- Home/About Me page link  -->
           <li class="nav-item">
             <a class="nav-link" href="index.html">Home/About Me</a>
           </li>
+          <!-- Portfolio link (highlighted active on this page)  -->
           <li class="nav-item active">
             <a class="nav-link" href="portfolio.html"
               >Portfolio <span class="sr-only">(current)</span></a
             >
           </li>
+          <!-- Contact page link  -->
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
-
+    <!-- The main element contains the Portfolio jumbotron and all content inside the jumbotron  -->
     <main class="mainpagecontent">
       <div class="container">
         <div class="row">
           <div class="col-md-8">
             <div class="jumbotron mt-5 p-4">
+              <!-- Jumbotron header  -->
               <h1 class="display-4 text-info font-weight-bold">Portfolio</h1>
+              <!-- Dividing line underneath the header  -->
               <hr class="my-3" />
               <div class="container mt-4 mb-4">
+                <!-- First row of portfolio images  -->
                 <div class="row">
                   <div class="col-md-6">
+                    <!-- Portfolio image one  -->
                     <img
                       src="images/placeholderimage350.png"
                       class="img-fluid mb-5"
@@ -78,6 +88,7 @@
                     />
                   </div>
                   <div class="col-md-6">
+                    <!-- Portfolio image two  -->
                     <img
                       src="images/placeholderimage350.png"
                       class="img-fluid mb-5"
@@ -86,8 +97,10 @@
                     />
                   </div>
                 </div>
+                <!-- Second row of portfolio images  -->
                 <div class="row">
                   <div class="col-md-6">
+                    <!-- Portfolio image three  -->
                     <img
                       src="images/placeholderimage350.png"
                       class="img-fluid mb-5"
@@ -96,6 +109,7 @@
                     />
                   </div>
                   <div class="col-md-6">
+                    <!-- Portfolio image four  -->
                     <img
                       src="images/placeholderimage350.png"
                       class="img-fluid mb-5"
@@ -104,8 +118,10 @@
                     />
                   </div>
                 </div>
+                <!-- Third row of portfolio images  -->
                 <div class="row">
                   <div class="col-md-6">
+                    <!-- Portfolio image five  -->
                     <img
                       src="images/placeholderimage350.png"
                       class="img-fluid"
@@ -120,17 +136,20 @@
         </div>
       </div>
     </main>
-
+    <!-- The footer element contains icons and links to Github and LinkedIn, as well as the copyright symbol and text  -->
     <footer class="footer">
       <div class="container">
         <div class="row">
           <div class="col-4 text-center">
+            <!-- Link to Github and the Github Font Awesome icon  -->
             <a href="https://github.com/duncangw1" class="fa fa-github"></a>
           </div>
           <div class="col-4 text-center">
+            <!-- Copyright symbol and text  -->
             <span class="namefooter text-muted">&#169; Copyright</span>
           </div>
           <div class="col-4 text-center">
+            <!-- Link to LinkedIn and the LinkedIn Font Awesome icon  -->
             <a
               href="https://www.linkedin.com/in/gene-duncan-653244114/"
               class="fa fa-linkedin"
@@ -139,7 +158,7 @@
         </div>
       </div>
     </footer>
-
+    <!-- Script inserted from the Bootstrap template  -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
